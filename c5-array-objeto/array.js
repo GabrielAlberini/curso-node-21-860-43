@@ -16,6 +16,7 @@ colores.unshift("blanco", "naranja");
 //eliminar el primero
 colores.shift();
 
+//agregar elemento el posición determinada
 colores[4] = "bordo";
 
 // console.log(colores);
