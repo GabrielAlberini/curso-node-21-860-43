@@ -138,8 +138,9 @@ comer("fideos");
 */
 
 const crearCuentaRegresiva = (numeroInicial, numeroFinal) => {
-  const cuentaAtras = [];
+  const cuentaAtras = []; // [] array {} objeto
 
+  //      inicio       |    condición == true  | decremento o incrmento
   for (let i = numeroInicial; i >= numeroFinal; i--) {
     cuentaAtras.push(i);
   }
@@ -147,4 +148,4 @@ const crearCuentaRegresiva = (numeroInicial, numeroFinal) => {
   console.log(cuentaAtras);
 };
 
-crearCuentaRegresiva(15, 0);
+crearCuentaRegresiva(5, 0);
