@@ -1,0 +1,25 @@
+{
+  "name": "peticiones-post-put",
+  "version": "1.0.0",
+  "description": "Aprender a realizar peticiones http post y put",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.js",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "backend"
+  ],
+  "author": "Gabriel Alberini",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
