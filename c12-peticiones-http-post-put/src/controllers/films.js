@@ -7,9 +7,6 @@ const getAllFilms = (request, response) => {
 const getFilm = (request, response) => {
   const id = request.params.id;
 
-  console.log("Tipo de dato de id por parametro ", typeof id);
-  console.log("Tipo de dato del id de la pelicula ", typeof peliculas[0].id);
-
   const peliculaEncontrada = peliculas.find(
     (pelicula) => Number(pelicula.id) === Number(id)
   );
