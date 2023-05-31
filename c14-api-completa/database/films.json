@@ -1,0 +1,16 @@
+[
+  {
+    "title": "El resplandor",
+    "director": "James Cameron",
+    "year": 100,
+    "id": 2,
+    "image": "https://shatpod.com/movies/wp-content/uploads/Titanic-Movie-Poster-1997.jpg"
+  },
+  {
+    "title": "ET",
+    "director": "James Cameron",
+    "year": 100,
+    "id": 3,
+    "image": "https://shatpod.com/movies/wp-content/uploads/Titanic-Movie-Poster-1997.jpg"
+  }
+]
